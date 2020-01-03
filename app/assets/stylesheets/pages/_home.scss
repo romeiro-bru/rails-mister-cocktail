@@ -1,1 +1,40 @@
 // Specific CSS for your home-page
+.div {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+h1 {
+  font-size: 50px;
+  color: #4e5416;
+  opacity: 0.8;
+}
+.banner {
+    background-image: url(/assets/pink-lemon.jpeg);
+    opacity: 0.6;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    padding: 260px;
+}
+
+.banner-content {
+  // border: 1px solid red;
+  width: 700px;
+  text-align: center;
+}
+
+.container {
+  // border: 1px solid blue;
+  width: 700px;
+  margin: 50px auto;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
