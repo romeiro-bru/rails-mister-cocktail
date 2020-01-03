@@ -1,6 +1,5 @@
-// Specific CSS for your home-page
-.div {
-  display: block;
+a {
+  text-decoration: none;
 }
 
 body {
@@ -9,22 +8,31 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
   color: #4e5416;
   opacity: 0.8;
+  font-family: "Amatic SC";
+  margin-bottom: 100px;
 }
+// Specific CSS for your home-page
+.div {
+  display: block;
+}
+
 .banner {
     background-image: url(/assets/pink-lemon.jpeg);
     opacity: 0.6;
     background-size: cover;
     color: white;
     background-position: center;
-    padding: 260px;
+    padding: 199px;
+    padding-bottom: 100px;
+    padding-top: 10px;
 }
 
 .banner-content {
   // border: 1px solid red;
-  width: 700px;
+  width: 900px;
   text-align: center;
 }
 
@@ -35,6 +43,11 @@ h1 {
   background-position: center;
 }
 
-a {
-  text-decoration: none;
+.cocktails-index{
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid red;
 }
