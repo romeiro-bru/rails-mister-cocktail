@@ -6,14 +6,19 @@
     <div class="banner">
       <div class="banner-content">
         <div class="container">
-          <h1>Mistercocktail</h1>
+          <h1>Mister Cocktail</h1>
         </div>
           <a href="/cocktails/new" class="btn btn-success" role="button">Add Your Own Cocktail</a>
       </div>
     </div>
 
-    <div class="cocktails-index">
-    </div>
+  <div class="cards">
+  <% @cocktails.each do |cocktail| %>
+   <%= render "components/card", cocktail: @cocktail %>
+  <% end %>
+
+  </div>
+
   </body>
 
 </html>

@@ -23,11 +23,11 @@ h1 {
     background-image: url(/assets/pink-lemon.jpeg);
     opacity: 0.6;
     background-size: cover;
-    color: white;
     background-position: center;
+    color: white;
     padding: 199px;
-    padding-bottom: 100px;
-    padding-top: 10px;
+    padding-bottom: 180px;
+    padding-top: 20px;
 }
 
 .banner-content {
@@ -41,13 +41,4 @@ h1 {
   width: 700px;
   margin: 50px auto;
   background-position: center;
-}
-
-.cocktails-index{
-  width: 900px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: 1px solid red;
 }
