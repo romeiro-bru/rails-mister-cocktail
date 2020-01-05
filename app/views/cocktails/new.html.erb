@@ -1,9 +1,13 @@
 <div class="container">
   <div class="row justify-content-center">
-    <h1>New Cocktail</h1>
-    <p>Add cocktail</p>
+    <h1>Add your cocktail</h1>
       <%= simple_form_for [@cocktail] do |f| %>
         <%= f.input :name, label: 'Cocktail name' %>
+        <br>
+        <!-- PHOTO INPUT DOESN'T WORK -->
+        <%= f.input :name, label: 'Photo url' %>
+        <br>
+        <%= f.button :submit, class: 'btn-create-cocktail'%>
       <% end %>
   </div>
 </div>

@@ -5,6 +5,7 @@ a {
 body {
   margin: 0;
   font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: #ced3de47;
 }
 
 h1 {
@@ -13,6 +14,11 @@ h1 {
   opacity: 0.8;
   font-family: "Amatic SC";
   margin-bottom: 100px;
+}
+
+h2{
+  font-family: "Amatic SC";
+  color: #a29c7f;
 }
 // Specific CSS for your home-page
 .div {

@@ -1,13 +1,30 @@
-.navbar-lewagon {
+.navbar {
+  background-color: #97a283;
+  color: #FFFFF4;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  background: white;
-  border: 1px solid black;
+  height: 85px;
+  padding: 0px 45px;
+  font-size: 35px;
+  font-family: 'Amatic SC';
+  font-weight: bold;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-icon {
+  align-items: center;
+  font-size: 45px
+}
+
+a {
+  color: #fffff4;
+}
+
+.navbar i:hover {
+  color: #d4d6c0;
+  opacity: 0.6;
+}
+
+.navbar .navbar-collapse {
   flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
 }

@@ -12,13 +12,11 @@
       </div>
     </div>
 
-  <div class="cards">
-  <% @cocktails.each do |cocktail| %>
-   <%= render "components/card", cocktail: @cocktail %>
-  <% end %>
-
-  </div>
+    <div class="card">
+      <% @cocktails.each do |cocktail| %>
+        <%= render "cocktails/card", cocktail: cocktail %>
+      <% end %>
+    </div>
 
   </body>
-
 </html>

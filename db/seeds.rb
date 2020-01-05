@@ -7,11 +7,37 @@ puts "Creating Ingredients"
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "watermelon juice")
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "Creating Cocktails"
 
-  cocktails = Cocktail.create(
+cocktails = Cocktail.create(
    name: 'Mojito',
-   photo: '(assets/moijto.jpeg)'
+   photo: '(app/assets/images/moijto.jpeg)'
+  )
+
+cocktails = Cocktail.create(
+  name: 'Caipirinha',
+  photo: '(app/assets/images/caipirinha.jpeg)'
+  )
+
+cocktails = Cocktail.create(
+  name: 'Watermelon Cocktail',
+  photo: '(assets/watermelon.jpeg)'
+  )
+
+cocktails = Cocktail.create(
+  name: 'Blue Beach',
+  photo: '(assets/bluepink.jpeg)'
+  )
+
+cocktails = Cocktail.create(
+  name: 'Passionfruit Cocktail',
+  photo: '(assets/passionfruit.jpeg)'
+  )
+
+cocktails = Cocktail.create(
+  name: 'Blackberry Cocktail',
+  photo: '(assets/purple.jpeg)'
   )

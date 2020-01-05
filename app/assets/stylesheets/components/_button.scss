@@ -6,7 +6,15 @@
   text-decoration: none;
 }
 
+.btn-create-cocktail{
+  padding: 10px 15px;
+  background: #f3bb9a;
+  font-weight: bolder;
+  border: 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 .btn:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
