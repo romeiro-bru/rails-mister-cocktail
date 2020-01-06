@@ -14,12 +14,12 @@ puts "Creating Cocktails"
 
 cocktails = Cocktail.create(
    name: 'Mojito',
-   photo: '(app/assets/images/moijto.jpeg)'
+   photo: 'url /app/assets/images/moijto.jpeg'
   )
 
 cocktails = Cocktail.create(
   name: 'Caipirinha',
-  photo: '(app/assets/images/caipirinha.jpeg)'
+  photo: 'url (/app/assets/images/caipirinha.jpeg)'
   )
 
 cocktails = Cocktail.create(
