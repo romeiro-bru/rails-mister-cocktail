@@ -23,6 +23,11 @@
   height: 290px;
 }
 
+.product-img:hover {
+  opacity: 0.6;
+   -webkit-filter: brightness(80%);
+}
+
 .product-img {
   min-width: 200px;
   background-size: cover;
@@ -67,7 +72,7 @@ h3 {
   padding: 67px;
   /* padding-bottom: 0px; */
   /* padding-top: 249px; */
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .container-new-cocktail {
