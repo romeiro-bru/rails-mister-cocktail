@@ -1,6 +1,8 @@
 <div class="cocktail-card-photo">
   <div class="card-cocktail-name">
-    <h3><%= link_to cocktail.name, cocktail_path(cocktail) %></h3>
+    <h3><%= cocktail.name %></h3>
   </div>
+  <%= link_to cocktail_path(cocktail) do %>
   <div class="product-img" style="background-image: url(<%= cocktail.photo %>);"></div>
+  <% end %>
 </div>
