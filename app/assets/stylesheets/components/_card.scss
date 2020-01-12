@@ -1,6 +1,95 @@
+////////////// STYLE COCKTAILS INDEX//////////////////
 .card {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   // display: flex;
   margin: 100px;
   border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  border: 1px solid pink;
+}
+
+.cocktail-card-photo{
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+  min-width: 300px;
+  position: relative;
+  border-radius: 8px;
+  padding: 67px;
+  border: 1px solid black;
+}
+
+.col-xs-12{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-img {
+  height: 250px;
+  // width: 100%;
+  border: 1px solid green;
+}
+
+.product-img {
+  min-width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-cocktail-name {
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.cocktail-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+
+h3 {
+  font-family: "Amatic SC";
+  color: #4e5416;
+  font-size: 30px;
+}
+
+/////////////////STYLE NEW-COCKTAIL///////////////
+
+.card-new-cocktail {
+  background-image: url(/assets/pink-flower.jpeg);
+  opacity: 0.7;
+  background-size: cover;
+  background-position: bottom;
+  color: #f3bb9a;
+  padding: 67px;
+  /* padding-bottom: 0px; */
+  /* padding-top: 249px; */
+  border-radius: 5px;
+}
+
+.container-new-cocktail {
+  // border: 1px solid blue;
+  width: 880px;
+  margin: 50px auto;
+  background-position: center;
+}
+
+h2 {
+ font-size: 48px;
+ color: #4e5416 !important;
+ margin-bottom: 55px;
+ margin-top: 8px;
+}
+
+select {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
 }

@@ -12,10 +12,14 @@
       </div>
     </div>
 
-    <div class="card">
-      <% @cocktails.each do |cocktail| %>
-        <%= render "cocktails/card", cocktail: cocktail %>
-      <% end %>
+    <div class="container-fluid">
+      <div class="card">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <% @cocktails.each do |cocktail| %>
+            <%= render "cocktails/card", cocktail: cocktail %>
+          <% end %>
+        </div>
+      </div>
     </div>
 
   </body>

@@ -1,5 +1,5 @@
 .btn {
-  background: #ff9c61;
+  background: #97a283;
   color: white;
   padding: 18px 15px;
   border-radius: 5px;
@@ -8,7 +8,7 @@
 
 .btn-create-cocktail{
   padding: 10px 15px;
-  background: #f3bb9a;
+  background: #97a283;
   font-weight: bolder;
   border: 0px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -18,3 +18,7 @@
   opacity: 0.8;
 }
 
+input[type="submit" i]{
+ border-radius: 5px;
+ color: white;
+}

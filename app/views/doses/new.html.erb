@@ -1,0 +1,14 @@
+<div class="container-new-cocktail">
+  <div class="card-new-cocktail">
+   <h2>Add the ingredients</h2>
+    <div class="form-cocktail">
+      <%= simple_form_for [@cocktail, @dose] do |f| %>
+        <%= f.input :description %>
+        <br>
+        <%= f.association :ingredient %>
+        <br>
+        <%= f.submit "Submit", class: "btn-create-cocktail" %>
+      <% end %>
+    </div>
+  </div>
+</div>
