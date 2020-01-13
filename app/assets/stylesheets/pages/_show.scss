@@ -1,0 +1,39 @@
+.cocktail-recipe {
+  display: flex;
+  align-items: center;
+}
+
+.cocktail-ingredients {
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  padding: 1px;
+
+  .ingredients-list {
+    overflow: scroll;
+  }
+}
+
+.show-img {
+  height: 340px;
+}
+
+.show-img {
+  min-width: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+}
+
+.cocktail-show {
+  position: relative;
+  padding: 30px;
+  margin: 50px auto;
+  margin-top: 4px;
+  margin-bottom: 17px;
+}
+
+p {
+  padding: 40px;
+  margin-top: -60px;
+}
+

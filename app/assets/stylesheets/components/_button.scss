@@ -16,6 +16,7 @@
 
 .btn:hover {
   opacity: 0.8;
+  -webkit-filter: brightness(80%);
 }
 
 input[type="submit" i]{
