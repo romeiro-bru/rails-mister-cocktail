@@ -1,19 +1,18 @@
 <div class="container">
   <div class="cocktail-recipe">
     <div class="cocktail-ingredients">
-
-<div class="cocktail-show">
-  <div class="card-cocktail-name">
-    <h3><%= @cocktail.name %></h3>
-  </div>
-  <div class="show-img" style="background-image: url(<%= @cocktail.photo %>);"></div>
-</div>
-
-
+<!-- COCKTAIL CARD with different properties -->
+      <div class="cocktail-show">
+        <div class="card-cocktail-name">
+          <h3><%= @cocktail.name %></h3>
+        </div>
+        <div class="show-img" style="background-image: url(<%= @cocktail.photo %>);"></div>
+      </div>
+<!-- NO HOVER EFFECT -->
       <% @cocktail.doses.each do |dose| %>
-      <p>- <%= dose.ingredient.name %> : <%= dose.description %></p>
+      <p>Main ingredient: <%= dose.ingredient.name %></p>
+      <p>Preparation: <%= dose.description %></p>
       <% end %>
     </div>
   </div>
 </div>
-
