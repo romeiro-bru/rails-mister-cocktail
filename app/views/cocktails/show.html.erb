@@ -10,8 +10,8 @@
       </div>
 <!-- NO HOVER EFFECT -->
       <% @cocktail.doses.each do |dose| %>
-      <p>Main ingredient: <%= dose.ingredient.name %></p>
-      <p>Preparation: <%= dose.description %></p>
+      <p><i class="fas fa-star"></i> <%= dose.ingredient.name %></p>
+      <p><%= dose.description %></p>
       <% end %>
     </div>
   </div>

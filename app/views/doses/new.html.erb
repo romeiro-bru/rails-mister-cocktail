@@ -5,7 +5,7 @@
       <%= simple_form_for [@cocktail, @dose] do |f| %>
         <%= f.input :description, label: 'How to prepare' %>
         <br>
-        <%= f.association :ingredient, label: 'Main ingredient' %>
+        <%= f.association :ingredient, label: 'Star ingredient' %>
         <br>
         <%= f.submit "Submit", class: "btn-create-cocktail" %>
       <% end %>

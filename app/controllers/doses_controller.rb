@@ -1,9 +1,11 @@
 class DosesController < ApplicationController
+  # GET /cocktails/:cocktail_id/doses/new
   def new
     @cocktail = Cocktail.find(params[:cocktail_id])
     @dose = Dose.new
   end
 
+  # POST /cocktails/:cocktail_id/doses
   def create
     # find the cocktail the dose is for
     @cocktail = Cocktail.find(params[:cocktail_id])
@@ -28,6 +30,6 @@ class DosesController < ApplicationController
   private
 
   def dose_params
-    params.require(:dose).permit(:description, :ingredient_id)
+    params.require(:dose).permit(:description, :cocktail_id, :ingredient_id)
   end
 end

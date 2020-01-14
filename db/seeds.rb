@@ -105,32 +105,27 @@ Ingredient.create(name: "Tea")
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "Creating Cocktails"
 
-cocktails = Cocktail.create(
- name: 'Caipirinha',
- photo: './assets/caipirinha.jpeg'
+strawberry_grenadine = Cocktail.create(
+  name: 'Strawberry Grenadine',
+  photo: 'https://www.eatwell101.com/wp-content/uploads/2015/03/strawberry-grenadine-bacardi-cocktail.jpg'
 )
 
-cocktails = Cocktail.create(
- name: 'Watermelon Cocktail',
- photo: './assets/watermelon.jpeg'
+sparkling_watermelon = Cocktail.create(
+  name: 'Sparkling Watermelon Punch',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2018/06/26083717/sparkling-watermelon-720x720-article.jpg'
 )
 
-cocktails = Cocktail.create(
-  name: 'Blue Beach',
-  photo: './assets/bluepink.jpeg'
+spicy_mint = Cocktail.create(
+  name: 'Spicy Mint Margarita',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2018/05/03110121/spicy-mint-avocado-margarita-720x720-article.jpg'
 )
 
-cocktails = Cocktail.create(
-  name: 'Passionfruit Cocktail',
-  photo: './assets/passionfruit.jpeg'
+blue_hawaii = Cocktail.create(
+  name: 'Blue Hawaii',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2019/07/12101312/Blue-Hawaii-720x720-recipe.jpg'
 )
 
-cocktails = Cocktail.create(
-  name: 'Blackberry Cocktail',
-  photo: './assets/purple.jpeg'
-)
-
-cocktails = Cocktail.create(
-  name: 'Lemon and lime',
-  photo: './assets/lemon-lime.jpeg'
+spanish_gin = Cocktail.create(
+  name: 'Spanish Gin and Tonic',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2017/07/13091447/spanish-gin-and-tonic-720x720-recipe.jpg'
 )
