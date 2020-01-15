@@ -29,3 +29,15 @@ input[type="file" i] {
   display: flex;
 }
 
+.form-control-search {
+  display: inline-block;
+  width: auto;
+  box-shadow: 0 0 10px #cccccc94;
+  padding: 6px 12px;
+  font-size: 18px;
+  color: #555555;
+  background-color: #f8f6f6;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-family: 'Amatic SC';
+  }

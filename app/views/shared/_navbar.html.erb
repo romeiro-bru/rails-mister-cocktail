@@ -4,17 +4,17 @@
   </div>
 
   <!-- ////SEARCH COCKTAIL BY NAME ///// -->
-  <div class="form-search">
-        <button type="submit" class="btn btn-search-cocktail">
-          <i class="fa fa-search"></i>
-        </button>
+
     <%= form_tag cocktails_path, method: :get do %>
       <%= text_field_tag :query,
         params[:query],
-        class: "form-control",
-        placeholder: "             Search by name" %>
+        class: "form-control-search",
+        placeholder: "         Search by name" %>
+        <button type="submit" class="btn btn-search-cocktail">
+          <i class="fa fa-search"></i>
+        </button>
     <% end %>
         <!-- Cocktails cards -->
-  </div>
+
 
 </div>
