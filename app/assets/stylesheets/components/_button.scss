@@ -14,14 +14,6 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-.btn-search-cocktail {
-  padding: 10px 15px;
-  background: #97a283;
-  border: 0px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.11);
-  margin-left: 30px;
-}
-
 .btn:hover {
   opacity: 0.8;
   -webkit-filter: brightness(80%);
@@ -30,4 +22,12 @@
 input[type="submit" i]{
  border-radius: 5px;
  color: white;
+}
+////// Btn from navbar - search ////////
+.btn-search-cocktail {
+  padding: 10px 15px;
+  background: #97a283;
+  border: 0px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.11);
+  margin-right: 8px;
 }

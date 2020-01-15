@@ -4,7 +4,6 @@
   box-shadow: 0 0 10px #cccccc94;
   padding: 6px 12px;
   font-size: 18px;
-  // line-height: 1.4;
   color: #555555;
   background-color: #f8f6f6;
   background-image: none;
@@ -21,11 +20,12 @@
   text-decoration: none;
 }
 
-.form-search{
-  display: flex;
-}
-
 input[type="file" i] {
   color: #97a2839e;
   font-size: 15px;
 }
+///////From NAVBAR //////
+.form-search{
+  display: flex;
+}
+
