@@ -1,6 +1,12 @@
 class CocktailsController < ApplicationController
+  # It will display from the newest to oldest created
   def index
-    @cocktails = Cocktail.all
+    @cocktails = Cocktail.all.order('created_at DESC')
+    if params[:query].present?
+      @cocktails = Cocktail.where(name: params[:query])
+    else
+      @cocktails = Cocktail.all
+    end
   end
 
   def show

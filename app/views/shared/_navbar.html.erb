@@ -1,8 +1,23 @@
-
- <div class="navbar">
+<div class="navbar">
   <div class="navbar-icon">
     <!-- CHANGE href COCKTAIL -->
     <a href="/"><i class="fas fa-cocktail"></i></a>
   </div>
-    <a href="#"><input class="form-control" type="text" placeholder="Search by name or ingredient"></a>
+
+  <div class="form-search">
+    <%= form_tag cocktails_path, method: :get do %>
+      <%= text_field_tag :query,
+        params[:query],
+        class: "form-control",
+        placeholder: "             Search by name" %>
+    <% end %>
+    <button type="submit" class="btn btn-search-cocktail">
+      <i class="fa fa-search"></i>
+    </button>
+    <!-- the list of cocktails -->
+  </div>
+
 </div>
+
+<!--     <a href="#"><input class="form-control" type="text" placeholder="Search by name or ingredient"></a>
+ --><!-- [...] -->

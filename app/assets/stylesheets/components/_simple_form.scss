@@ -10,11 +10,8 @@
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 20px;
-  }
-
-a .form-control {
   font-family: 'Amatic SC';
-}
+  }
 
 .form-cocktail {
   font-size: 18px;
@@ -22,6 +19,10 @@ a .form-control {
   max-width: 440px;
   color: #4e5416;
   text-decoration: none;
+}
+
+.form-search{
+  display: flex;
 }
 
 input[type="file" i] {
