@@ -2,6 +2,8 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
+# movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+# Character.create(name: 'Luke', movie: movies.first)
 puts 'Cleaning database...'
 Cocktail.destroy_all
 Ingredient.destroy_all
@@ -101,18 +103,16 @@ Ingredient.create(name: "Ginger ale")
 Ingredient.create(name: "Coke")
 Ingredient.create(name: "Tea")
 
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 puts "Creating Cocktails"
-
-strawberry_grenadine = Cocktail.create(
-  name: 'Strawberry Grenadine',
-  photo: 'https://www.eatwell101.com/wp-content/uploads/2015/03/strawberry-grenadine-bacardi-cocktail.jpg'
-)
 
 sparkling_watermelon = Cocktail.create(
   name: 'Sparkling Watermelon Punch',
   photo: 'https://cdn.liquor.com/wp-content/uploads/2018/06/26083717/sparkling-watermelon-720x720-article.jpg'
+)
+
+strawberry_grenadine = Cocktail.create(
+  name: 'Strawberry Grenadine',
+  photo: 'https://www.eatwell101.com/wp-content/uploads/2015/03/strawberry-grenadine-bacardi-cocktail.jpg'
 )
 
 spicy_mint = Cocktail.create(
@@ -120,12 +120,20 @@ spicy_mint = Cocktail.create(
   photo: 'https://cdn.liquor.com/wp-content/uploads/2018/05/03110121/spicy-mint-avocado-margarita-720x720-article.jpg'
 )
 
-blue_hawaii = Cocktail.create(
-  name: 'Blue Hawaii',
-  photo: 'https://cdn.liquor.com/wp-content/uploads/2019/07/12101312/Blue-Hawaii-720x720-recipe.jpg'
-)
-
 spanish_gin = Cocktail.create(
   name: 'Spanish Gin and Tonic',
   photo: 'https://cdn.liquor.com/wp-content/uploads/2017/07/13091447/spanish-gin-and-tonic-720x720-recipe.jpg'
 )
+
+green_holiday = Cocktail.create(
+  name: 'Green Holiday',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2016/12/01144455/green-holiday-720x720-recipe.jpg'
+)
+
+sparklig_rose = Cocktail.create!(
+  name: 'Sparklig Rosé Margarita',
+  photo: 'https://cdn.liquor.com/wp-content/uploads/2018/04/09130652/sparkling-rose-margarita-punch-720x720-article.jpg'
+)
+
+puts "Generated #{Ingredient.count} ingredients"
+puts "Generated #{Cocktail.count} cocktails"
