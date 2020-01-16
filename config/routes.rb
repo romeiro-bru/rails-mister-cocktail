@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # Defining cocktails#index as home page
   root to: "cocktails#index"
 
-  resources :cocktails, only: [:index, :show, :new, :create] do
+  resources :cocktails, only: [:index, :new, :create, :show, :edit, :update] do
     resources :doses, only: [:new, :create] do
       resources :ingredient, only: [:new, :create]
     end

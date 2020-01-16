@@ -16,10 +16,8 @@ class CocktailsController < ApplicationController
   def new
     @cocktail = Cocktail.new
   end
-
   # After saving the cocktail's name and photo it should go to doses/new,
   # so we can add doses and ingredients
-
   def create
     @cocktail = Cocktail.new(cocktail_params)
     if @cocktail.save
@@ -27,6 +25,17 @@ class CocktailsController < ApplicationController
     else
       render :new
     end
+  end
+
+  def edit
+    @cocktail = Cocktail.find(params[:id])
+  end
+
+  def update
+    @cocktail = Cocktail.find(params[:id])
+    @cocktail.update(cocktail_params)
+
+    redirect_to cocktail_path(@cocktail)
   end
 
   private
