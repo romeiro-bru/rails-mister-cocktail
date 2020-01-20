@@ -26,11 +26,12 @@
 }
 
 .show-img {
-  min-width: 550px;
+  width: 527px;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
   margin-top: -32px;
+  box-shadow: 0 0 10px #cccccc94;
 }
 
 .cocktail-show {
@@ -39,6 +40,7 @@
   margin: 50px auto;
   margin-top: 4px;
   margin-bottom: 17px;
+  margin-left: 55px;
 }
 
 p {

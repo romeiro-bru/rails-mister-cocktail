@@ -5,11 +5,13 @@
 }
 
 .edit-img {
-  min-width: 550px;
+  width: 327px;
   background-size: cover;
   background-position: center;
-  border-radius: 16px;
+  border-radius: 50%;
   height: 340px;
+  margin-left: 199px;
+  box-shadow: 0 0 10px #cccccc94;
 }
 
 .card-cocktail-edit {
