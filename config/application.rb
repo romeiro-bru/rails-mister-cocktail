@@ -33,6 +33,3 @@ module RailsMisterCocktail
     config.generators.system_tests = nil
   end
 end
-
-# => preparing to heroku
-config.assets.initialize_on_precompile = false
