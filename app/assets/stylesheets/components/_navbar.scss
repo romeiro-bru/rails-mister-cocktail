@@ -11,6 +11,19 @@
   font-weight: bold;
 }
 
+/* The animation code */
+@keyframes fa-cocktail {
+  from {color: #97a283;}
+  to {color: #eaebdd;}
+}
+
+/* The element to apply the animation to */
+.fa-cocktail {
+  color: white;
+  animation-name: fa-cocktail;
+  animation-duration: 4s;
+}
+
 .navbar-icon {
   align-items: center;
   font-size: 45px
