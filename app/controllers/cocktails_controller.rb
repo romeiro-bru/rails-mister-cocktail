@@ -1,5 +1,5 @@
 class CocktailsController < ApplicationController
-  # It will display from the newest to oldest created
+  before_action :set_cocktail, only: [:edit, :update, :show]
   def index
     @cocktails = Cocktail.all
     if params[:query].present?
@@ -10,7 +10,6 @@ class CocktailsController < ApplicationController
   end
 
   def show
-    @cocktail = Cocktail.find(params[:id])
   end
 
   def new
@@ -28,11 +27,9 @@ class CocktailsController < ApplicationController
   end
 
   def edit
-    @cocktail = Cocktail.find(params[:id])
   end
 
   def update
-    @cocktail = Cocktail.find(params[:id])
     @cocktail.update(cocktail_params)
 
     redirect_to cocktail_path(@cocktail)
@@ -46,6 +43,10 @@ class CocktailsController < ApplicationController
   end
 
   private
+
+  def set_cocktail
+    @cocktail = Cocktail.find(params[:id])
+  end
 
   def cocktail_params
     params.require(:cocktail).permit(:name, :photo)
