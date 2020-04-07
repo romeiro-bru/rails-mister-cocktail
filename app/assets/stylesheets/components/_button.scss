@@ -1,5 +1,5 @@
 .btn {
-  background: #97a283;
+  background: $green;
   color: white;
   padding: 18px 15px;
   border-radius: 5px;
@@ -8,7 +8,7 @@
 
 .btn-create-cocktail{
   padding: 10px 15px;
-  background: #97a283;
+  background: $green;
   font-weight: bolder;
   border: 0px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);

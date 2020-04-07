@@ -1,11 +1,10 @@
 .footer {
-  background: #828e6f;
+  background: $green;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 85px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  padding: 1rem 1rem;
+  color: white;
 }
 .footer-links {
   display: flex;
@@ -13,23 +12,23 @@
 }
 .footer-links a {
   color: white;
-  opacity: 0.15;
-  text-decoration: none;
   font-size: 28px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+  color: $dark-green;
+  transition: 1s;
 }
 .footer .fa-heart {
-  color: #4e5416;
+  color: $dark-green;
 }
 
 .fa-arrow-circle-up {
-  color: #ced3de47;
+  color: white;
   font-size: 24px;
 }
 
 .fa-arrow-circle-up:hover {
   opacity: 0.5;
+  transition: 1s;
 }

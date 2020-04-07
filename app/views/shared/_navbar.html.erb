@@ -2,9 +2,7 @@
   <div class="navbar-icon">
     <a href="/"><i class="fas fa-cocktail"></i></a>
   </div>
-
   <!-- ////SEARCH COCKTAIL BY NAME ///// -->
-
     <%= form_tag cocktails_path, method: :get do %>
       <%= text_field_tag :query,
         params[:query],
@@ -15,6 +13,4 @@
         </button>
     <% end %>
         <!-- Cocktails cards -->
-
-
 </div>

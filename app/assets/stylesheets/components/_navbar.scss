@@ -1,20 +1,16 @@
 .navbar {
-  background-color: #97a283;
-  color: #FFFFF4;
+  background-color: $green;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 85px;
-  padding: 0px 45px;
+  padding: 13px 45px;
   font-size: 35px;
-  font-family: 'Amatic SC';
-  font-weight: bold;
 }
 
 /* The animation code */
 @keyframes fa-cocktail {
-  from {color: #97a283;}
-  to {color: #eaebdd;}
+  from {color: #6ba980;}
+  to {color: white;}
 }
 
 /* The element to apply the animation to */
@@ -27,10 +23,6 @@
 .navbar-icon {
   align-items: center;
   font-size: 45px
-}
-
-a {
-  color: #fffff4;
 }
 
 .navbar i:hover {
