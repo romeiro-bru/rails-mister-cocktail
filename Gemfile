@@ -6,6 +6,10 @@ ruby '2.6.3'
 # Gemfile
 gem 'cloudinary', '~> 1.12.0'
 # Cloudinary
+
+# Preparing to Heroku
+gem 'aws-sdk-s3', require: false
+
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
