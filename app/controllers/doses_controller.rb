@@ -20,13 +20,6 @@ class DosesController < ApplicationController
     end
   end
 
-  # DELETE /doses/:id
-  def destroy
-    @dose = Dose.find(params[:id])
-    @dose.destroy
-    redirect_to @dose.cocktail
-  end
-
   private
 
   def dose_params
