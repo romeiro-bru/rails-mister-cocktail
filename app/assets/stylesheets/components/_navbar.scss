@@ -1,9 +1,8 @@
 .navbar {
   background-color: $green;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 13px 45px;
+  padding: 13px 15px;
   font-size: 35px;
 }
 
@@ -22,7 +21,7 @@
 
 .navbar-icon {
   align-items: center;
-  font-size: 45px
+  font-size: 40px
 }
 
 .navbar i:hover {
