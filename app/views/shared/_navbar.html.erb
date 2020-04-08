@@ -2,19 +2,15 @@
   <div class="navbar-icon">
     <a href="/"><i class="fas fa-cocktail"></i></a>
   </div>
-
   <!-- ////SEARCH COCKTAIL BY NAME ///// -->
-
     <%= form_tag cocktails_path, method: :get do %>
       <%= text_field_tag :query,
         params[:query],
         class: "form-control-search",
-        placeholder: "        Search by cocktail" %>
+        placeholder: "Search by name" %>
         <button type="submit" class="btn btn-search-cocktail">
           <i class="fa fa-search"></i>
         </button>
     <% end %>
         <!-- Cocktails cards -->
-
-
 </div>

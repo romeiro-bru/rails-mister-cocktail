@@ -1,20 +1,18 @@
 ////////////// STYLE COCKTAILS INDEX//////////////////
 .card {
-  margin-left: 110px;
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr;
-  // border: 1px solid pink;
+  margin-left: 20%;
+}
+
+.container-cocktail-show-edit {
+  width: 700px;
+  margin: 50px auto;
 }
 
 .cocktail-card-photo {
-  background-size: cover;
-  background-position: center;
-  color: white;
   height: 100%;
   min-width: 300px;
   position: relative;
-  padding: 24px;
-  padding-bottom: 2px;
+  padding: 24px 24px 2px 24px;
   display: inline-block;
 }
 
@@ -25,6 +23,7 @@
 .product-img:hover {
   opacity: 0.6;
   -webkit-filter: brightness(80%);
+  transition: 1s;
 }
 
 .product-img {
@@ -36,8 +35,7 @@
 }
 
 .card-cocktail-name {
-  top: -6px;
-  left: 21px;
+  top: 13px;
   position: absolute;
   text-transform: uppercase;
 }
@@ -47,30 +45,26 @@
 }
 
 h3 {
-  font-family: "Amatic SC";
-  font-weight: bold;
-  color: #4e5416;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: $pink;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  font-size: 30px;
   padding-left: 12px;
 }
 
 /////////////////STYLE NEW-COCKTAIL///////////////
 
 .card-new-cocktail {
-  background-image: url(/assets/pink-flower.jpeg);
-  opacity: 0.7;
+  background-image: url("https://images.unsplash.com/photo-1553451133-8083c47243d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
   background-size: cover;
   background-position: bottom;
-  color: #f3bb9a;
+  opacity: 0.9;
+  color: $dark-green;
   padding: 67px;
-  /* padding-bottom: 0px; */
-  /* padding-top: 249px; */
   border-radius: 3px;
 }
 
 .container-new-cocktail {
-  // border: 1px solid blue;
   width: 880px;
   margin: 50px auto;
   background-position: center;
@@ -78,9 +72,10 @@ h3 {
 
 h2 {
  font-size: 48px;
- color: #4e5416 !important;
  margin-bottom: 55px;
  margin-top: 8px;
+ font-family: "Amatic SC";
+ color: $pink;
 }
 
 select {
