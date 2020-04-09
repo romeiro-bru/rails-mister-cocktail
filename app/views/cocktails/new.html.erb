@@ -1,15 +1,17 @@
 <div class="container-new-cocktail">
-  <div class="card-new-cocktail">
+  <div class="wrapper-new-cocktail">
+
     <div class="form-cocktail">
-        <h2>Add your cocktail</h2>
-          <%= simple_form_for [@cocktail] do |f| %>
-            <%= f.input :name, label: 'Cocktail name' %>
-            <br>
-            <%= f.input :photo, label: 'Photo url' %>
-            <br>
-            <br>
-            <%= f.button :submit, value="Submit", class: 'btn-create-cocktail' %>
-          <% end %>
+      <h2>Add your cocktail</h2>
+      <%= simple_form_for [@cocktail] do |f| %>
+        <%= f.input :name, label: 'Cocktail name' %>
+        <br>
+        <%= f.input :photo, label: 'Photo url' %>
+        <br>
+        <br>
+        <%= f.button :submit, value="Submit", class: 'btn-create-cocktail' %>
+      <% end %>
     </div>
+
   </div>
 </div>

@@ -1,22 +1,33 @@
-<div class="container-cocktail-show-edit">
-  <div class="cocktail-ingredients">
-    <div class="cocktail-edit">
-      <%= link_to edit_cocktail_path(@cocktail) do %>
-        <i class="fas fa-pencil-alt"></i>
-      <% end %>
+<div class="container-show-page">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
 
-    </div>
-<!-- COCKTAIL CARD with different properties -->
-    <div class="cocktail-show">
-      <div class="card-cocktail-show">
-        <h3><%= @cocktail.name %></h3>
+      <div class="cocktail-show">
+
+        <div class="edit-icon">
+          <%= link_to edit_cocktail_path(@cocktail) do %>
+            <i class="fas fa-pencil-alt"></i>
+          <% end %>
+        </div>
+
+        <div class="cocktail-show-name">
+          <h3><%= @cocktail.name %></h3>
+        </div>
+
+        <div class="show-img-page" style="background-image: url(<%= @cocktail.photo %>);"></div>
+
+        <div class="dose-show-page">
+          <% @cocktail.doses.each do |dose| %>
+            <p><i class="fas fa-star"></i> <%= dose.ingredient.name %></p>
+            <p><%= dose.description %></p>
+            <% end %>
+        </div>
+
       </div>
-      <div class="show-img" style="background-image: url(<%= @cocktail.photo %>);"></div>
-    </div>
 
-    <% @cocktail.doses.each do |dose| %>
-      <p><i class="fas fa-star"></i> <%= dose.ingredient.name %></p>
-      <p><%= dose.description %></p>
-    <% end %>
+    </div>
   </div>
 </div>
+
+
+
