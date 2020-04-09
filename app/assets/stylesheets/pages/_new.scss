@@ -1,0 +1,17 @@
+///////////////// STYLE NEW-COCKTAIL  DOSE ///////////////
+.container-new-cocktail {
+  display: flex;
+  margin: 50px 40px 50px 47px;
+}
+
+.wrapper-new-cocktail {
+  border-left: 1px solid $pink;
+  margin: 50px auto;
+  padding: 50px;
+  width: 80%;
+
+  h2 {
+   font-size: 28px;
+   margin: 20px 0px;
+  }
+}

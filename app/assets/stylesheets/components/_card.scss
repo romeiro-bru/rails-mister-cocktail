@@ -1,16 +1,9 @@
 ////////////// STYLE COCKTAILS INDEX//////////////////
-.card {
-  margin-left: 20%;
-}
-
-.container-cocktail-show-edit {
-  width: 700px;
-  margin: 50px auto;
+.cards {
+  margin: 2% 9% 2% 9%;
 }
 
 .cocktail-card-photo {
-  height: 100%;
-  min-width: 300px;
   position: relative;
   padding: 24px 24px 2px 24px;
   display: inline-block;
@@ -18,20 +11,16 @@
 
 .product-img {
   height: 290px;
-}
-
-.product-img:hover {
-  opacity: 0.6;
-  -webkit-filter: brightness(80%);
-  transition: 1s;
-}
-
-.product-img {
   min-width: 300px;
   background-size: cover;
   background-position: center;
   border-radius: 3px;
   box-shadow: 0 0 10px #cccccc94;
+
+  &:hover {
+    opacity: 0.6;
+    transition: 1s;
+  }
 }
 
 .card-cocktail-name {
@@ -44,40 +33,10 @@
   display: grid;
 }
 
-h3 {
+h2, h3 {
   font-family: "Poppins";
   font-size: 16px;
   color: $pink;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   padding-left: 12px;
-}
-
-/////////////////STYLE NEW-COCKTAIL///////////////
-
-.card-new-cocktail {
-  background-image: url("https://images.unsplash.com/photo-1553451133-8083c47243d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
-  background-size: cover;
-  background-position: bottom;
-  opacity: 0.9;
-  color: $dark-green;
-  padding: 67px;
-  border-radius: 3px;
-}
-
-.container-new-cocktail {
-  width: 880px;
-  margin: 50px auto;
-  background-position: center;
-}
-
-h2 {
- font-size: 48px;
- margin-bottom: 55px;
- margin-top: 8px;
- font-family: "Amatic SC";
- color: $pink;
-}
-
-select {
-  font-family: "Open Sans", "Helvetica", "sans-serif";
 }

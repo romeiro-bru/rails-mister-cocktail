@@ -1,8 +1,8 @@
 .btn {
   background: $green;
   color: white;
-  padding: 18px 15px;
-  border-radius: 5px;
+  padding: 15px 13px;
+  border-radius: 3px;
   text-decoration: none;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .btn:hover {
-  opacity: 0.8;
-  -webkit-filter: brightness(80%);
+  opacity: 0.9;
+  transition: 1s;
 }
 
 input[type="submit" i]{
