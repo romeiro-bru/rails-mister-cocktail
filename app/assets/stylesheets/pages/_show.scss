@@ -1,51 +1,46 @@
-.cocktail-edit {
-  margin-left: 669px;
-  padding: 3px;
+.container-show-page {
+  display: flex;
+  margin: 42px;
+}
+
+.cocktail-show {
+  position: relative;
+  padding: 12px;
+  width: 100%;
+  p {
+    color: $dark-green;
+  }
+}
+
+.edit-icon {
+  margin-left: 8rem;
+  margin-bottom: -31px;
 }
 
 .fa-pencil-alt {
   color: $dark-green;
 }
 
-
-////////////////////////////////////////////////////////////////////
-.cocktail-ingredients {
-  border-radius: 3px;
-  // box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-}
-
-.card-cocktail-show {
-  top: -26px;
-  left: 29px;
+.cocktail-show-name {
   position: absolute;
   text-transform: uppercase;
+
+  h3 {
+    margin-left: 15px;
+    margin-top: 8px;
+  }
 }
 
-.show-img {
+.show-img-page {
   height: 340px;
-}
-
-.show-img {
-  width: 527px;
+  max-width: 34rem;
+  margin-left: 1rem;
   background-size: cover;
   background-position: center;
-  border-radius: 16px;
-  margin-top: -32px;
-  box-shadow: 0 0 10px #cccccc94;
+  border-radius: 3px;
+  box-shadow: 0 0 8px #cccccc94;
 }
 
-.cocktail-show {
-  position: relative;
-  padding: 30px;
-  margin: 50px auto;
-  margin-top: 4px;
-  margin-bottom: 17px;
-  margin-left: 55px;
+.dose-show-page {
+  width: 84%;
 }
-
-p {
-  padding: 40px;
-  margin-top: -60px;
-  color: $dark-green;
-}
-

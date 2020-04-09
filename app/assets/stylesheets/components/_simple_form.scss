@@ -1,38 +1,7 @@
-//////// Cocktail New ////////////
-.form-cocktail {
-  font-size: 18px;
-  min-width: 80px;
-  max-width: 440px;
-  color: $dark-green;
-}
-
-
-.form-control {
-  background-color: #f8f6f6;
-  color: #555555;
-  display: block;
-  width: 100%;
-  box-shadow: 0 0 10px #cccccc94;
-  padding: 6px 12px;
-  font-size: 18px;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  }
-
-
-input[type="file" i] {
-  color: #97a2839e;
-  font-size: 15px;
-}
-///////From NAVBAR //////
-.form-search{
-  // display: flex;
-}
-
+/////// NAVBAR SEARCH //////
 .form-control-search {
   background-color: $light-gray;
-  color: $pink;
+  color: $dark-pink;
   box-shadow: 0 0 10px #cccccc94;
   padding: 0.4rem 0rem;
   display: inline-block;
@@ -43,3 +12,25 @@ input[type="file" i] {
   font-size: 12px;
   text-align: center;
   }
+//////// New Cocktail/Dose ////////////
+.form-cocktail {
+  font-size: 18px;
+  max-width: 440px;
+  color: $dark-green;
+}
+
+.form-control {
+  background-color: $light-gray;
+  color: $dark-pink;
+  display: block;
+  width: 100%;
+  box-shadow: 0 0 10px #cccccc94;
+  padding: 6px 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+input[type="file" i] {
+  font-size: 15px;
+}
