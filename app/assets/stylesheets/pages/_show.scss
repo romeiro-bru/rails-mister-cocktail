@@ -4,17 +4,18 @@
 }
 
 .cocktail-show {
-  position: relative;
+  position: absolute;
   padding: 12px;
-  width: 100%;
+  width: 85%;
+}
+
+.dose-show-page {
   p {
     color: $dark-green;
   }
 }
 
 .edit-icon {
-  margin-left: 8rem;
-  margin-bottom: -31px;
 }
 
 .fa-pencil-alt {
@@ -26,15 +27,15 @@
   text-transform: uppercase;
 
   h3 {
-    margin-left: 15px;
-    margin-top: 8px;
+    margin-top: -2.5rem;
+    font-size: 23px;
   }
 }
 
 .show-img-page {
   height: 340px;
   max-width: 34rem;
-  margin-left: 1rem;
+  margin: inherit;
   background-size: cover;
   background-position: center;
   border-radius: 3px;

@@ -3,6 +3,11 @@
   margin: 50px auto;
 }
 
+.cocktail-edit {
+  position: relative;
+  padding: 12px;
+}
+
 .name-edit {
   margin-left: -11px;
   margin-top: -28px;
@@ -10,12 +15,12 @@
 }
 
 .edit-img {
-  width: 327px;
+  width: 20rem;
+  height: 20rem;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-  height: 340px;
-  margin-left: 199px;
+  margin-left: 15rem;
   box-shadow: 0 0 10px #cccccc94;
 }
 
