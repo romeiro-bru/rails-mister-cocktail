@@ -1,7 +1,5 @@
 Thirsty? You are just one click away from the perfect cocktail recipe.
 <br>
-Mister Cocktail is an app that stores our favourite cocktail recipes.
-<br>
 https://mr-cocktail-romeiro.herokuapp.com/
 
 
