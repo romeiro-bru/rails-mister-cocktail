@@ -18,5 +18,6 @@ https://mr-cocktail-romeiro.herokuapp.com/
 * Css :nail_care:
 * HTML :hammer:	
 * pgSQL :bar_chart:
+* Heroku :telescope:
 
 
